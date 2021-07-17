@@ -1,9 +1,7 @@
 import java.util.*;
 import java.util.Scanner;
 
-import jdk.internal.icu.impl.Utility;
-
-
+public class Utility {
 public class StopWatch {
 	public static void main(String[] args) {
 		System.out.println("Press any character and press Enter to SATRT the Stopwatch");
@@ -15,4 +13,5 @@ public class StopWatch {
 		float timeElapsed =(float) (stop - start) / 1000;
 		System.out.println("Time = " + timeElapsed + " Seconds");
 		}
+	}
 }
